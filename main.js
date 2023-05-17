@@ -39,7 +39,7 @@ classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models
 
   function check(){
     imagem=document.getElementById("captured_image");
-    classifier.classify(imagem,resultado());
+    classifier.classify(imagem,result);
   }
   
   function result(error,result){
